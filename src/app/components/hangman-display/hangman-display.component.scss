@@ -1,0 +1,16 @@
+.mistakes-count {
+    text-align: center;
+}
+
+.man-bounce {
+    animation: shimmy is infinite;
+    animation-direction: alternate;
+}
+@keyframes shimmy {
+    0% {
+        transform: translate(0,0);
+    }
+    100% {
+        translate: translate(0px, 17px); // primeiro valor x segundo y
+    }
+}
